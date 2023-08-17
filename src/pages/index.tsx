@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const socialLinks: SocialLink[] = [
     { url: "https://github.com/N-ha-1050", displayName: "GitHub" },
-    { url: "https://twitter.com/N_ha_1050", displayName: "Twitter" },
+    { url: "https://twitter.com/N_ha_1050", displayName: "X(Twitter)" },
     { url: "https://atcoder.jp/users/N_ha_1050", displayName: "AtCoder" },
 ]
 
