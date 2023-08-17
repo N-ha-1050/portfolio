@@ -2,7 +2,13 @@ import Link from "next/link"
 import { useDisclosure } from "./useDisclosure"
 import { MenuContent } from "@/types/MenuContent"
 
-const menuContents: MenuContent[] = [{ text: "Home", to: "/" }]
+const menuContents: MenuContent[] = [
+    { text: "Home", to: "/" },
+    { text: "About", to: "/about" },
+    { text: "Works", to: "/works" },
+    { text: "Skills", to: "/skills" },
+    { text: "Contact", to: "/contact" },
+]
 
 export const Header = () => {
     const { isOpen, onToggle } = useDisclosure(false)
