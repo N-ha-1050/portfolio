@@ -2,6 +2,7 @@ import { Section } from "@/components/ui/Section"
 import { SetInline } from "@/components/ui/SetInline"
 import { Title } from "@/components/ui/Title"
 import { NextPage } from "next"
+import { Fragment } from "react"
 
 const history: { date: string; content: string }[] = [
     { date: "2004年7月23日", content: "誕生" },
@@ -29,12 +30,12 @@ const About: NextPage = () => (
         <Section>history</Section>
         <div className="m-8 grid md:w-fit md:grid-cols-2 md:gap-4">
             {history.map(({ date, content }) => (
-                <>
+                <Fragment key={date}>
                     <p className="justify-self-center text-blue-800 md:border-b-2 md:border-blue-800 md:text-black">
                         {date}
                     </p>
                     <p className="mb-8 md:mb-0">{content}</p>
-                </>
+                </Fragment>
             ))}
         </div>
     </SetInline>
