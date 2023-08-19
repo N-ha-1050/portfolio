@@ -8,7 +8,7 @@ const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
         <Section>blog</Section>
-        <p className="m-4">
+        <p className="m-8">
             フロントエンドは Next.js, tailwind CSS に移行中
             <br />
             使った技術(フロントエンド): React, Chakra Ui - TypeScript
@@ -18,7 +18,7 @@ const Works: NextPage = () => (
             リンク: <Link href="https://blog.n-ha.cf">Site</Link>
         </p>
         <Section>stady</Section>
-        <p className="m-4">
+        <p className="m-8">
             一問一答サイト
             <br />
             中学の時にvbsで作成。
@@ -50,13 +50,13 @@ const Works: NextPage = () => (
             </Link>
         </p>
         {/* <Section>div-game</Section>
-        <p className="m-4"></p>
+        <p className="m-8"></p>
         <Section>海戦ゲーム</Section>
-        <p className="m-4"></p>
+        <p className="m-8"></p>
         <Section>word2vec</Section>
-        <p className="m-4"></p> */}
+        <p className="m-8"></p> */}
         <Section>Herbs</Section>
-        <p className="m-4">
+        <p className="m-8">
             ハーブの栽培記録
             <br />
             中学3年の時に作ったハーブ観察記録。
@@ -83,7 +83,7 @@ const Works: NextPage = () => (
             </Link>
         </p>
         <Section>go_home_time</Section>
-        <p className="m-4">
+        <p className="m-8">
             中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
             <br />
             使った技術: HSP(Hot Soup Processor)
