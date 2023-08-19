@@ -4,5 +4,13 @@
     "files.associations": {
         "*.css": "tailwindcss"
     },
-    "cSpell.words": ["Chakra", "stady", "streamlit"]
+    "cSpell.words": [
+        "Chakra",
+        "Kaggle",
+        "Pygame",
+        "Signate",
+        "Stady",
+        "Streamlit",
+        "tkinter"
+    ]
 }
