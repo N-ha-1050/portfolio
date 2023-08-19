@@ -7,7 +7,7 @@ const Skills: NextPage = () => (
     <SetInline>
         <Title>Skills</Title>
         <Section>Python</Section>
-        <p className="m-4">
+        <p className="m-8">
             <span className="my-4 block text-xl font-bold">
                 競技プログラミング
             </span>
@@ -41,7 +41,7 @@ const Skills: NextPage = () => (
             Discord Bot を作ったこともある。
         </p>
         <Section>TypeScript</Section>
-        <p className="m-4">
+        <p className="m-8">
             現在は、 Next.js での開発がメイン。
             <br />
             高校2年のときに始めて触り、 Chakra UI を使ってきたが、 Tailwind CSS
@@ -50,7 +50,7 @@ const Skills: NextPage = () => (
             このサイトの開発言語。
         </p>
         <Section>その他の言語</Section>
-        <ul className="m-4">
+        <ul className="m-8">
             <li>
                 <span className="my-4 block text-xl font-bold">C++, Rust</span>
                 競技プログラミングに使ったことがある、 C++ は初期の頃に使用、
