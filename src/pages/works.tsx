@@ -7,38 +7,15 @@ import Link from "next/link"
 const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
-        <Section>Herbs</Section>
+        <Section>blog</Section>
         <p className="m-4">
-            ハーブの栽培記録
+            フロントエンドは Next.js, tailwind CSS に移行中
             <br />
-            中学3年の時に作ったハーブ観察記録。
+            使った技術(フロントエンド): React, Chakra Ui - TypeScript
             <br />
-            初めての作品。
+            使った技術(バックエンド): DRF(Django REST Framework) - Python
             <br />
-            夏の自由課題で提出。
-            <br />
-            使った技術: HTML, CSS
-            <br />
-            リンク:{" "}
-            <Link
-                className="border-b border-transparent duration-200 hover:border-blue-950 hover:opacity-80"
-                href="https://github.com/N-ha-1050/Herbs"
-            >
-                GitHub
-            </Link>
-            ,{" "}
-            <Link
-                className="border-b border-transparent duration-200 hover:border-blue-950 hover:opacity-80"
-                href="https://herbs.n-ha.cf"
-            >
-                Site
-            </Link>
-        </p>
-        <Section>go_home_time</Section>
-        <p className="m-4">
-            中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
-            <br />
-            使った技術: HSP(Hot Soup Processor)
+            リンク: <Link href="https://blog.n-ha.cf">Site</Link>
         </p>
         <Section>stady</Section>
         <p className="m-4">
@@ -78,13 +55,38 @@ const Works: NextPage = () => (
         <p className="m-4"></p>
         <Section>word2vec</Section>
         <p className="m-4"></p> */}
-        <Section>blog</Section>
+        <Section>Herbs</Section>
         <p className="m-4">
-            フロントエンドは Next.js に移行中
+            ハーブの栽培記録
             <br />
-            使った技術(フロントエンド): React, Chakra Ui - TypeScript
+            中学3年の時に作ったハーブ観察記録。
             <br />
-            使った技術(バックエンド): DRF(Django REST Framework) - Python
+            初めての作品。
+            <br />
+            夏の自由課題で提出。
+            <br />
+            使った技術: HTML, CSS
+            <br />
+            リンク:{" "}
+            <Link
+                className="border-b border-transparent duration-200 hover:border-blue-950 hover:opacity-80"
+                href="https://github.com/N-ha-1050/Herbs"
+            >
+                GitHub
+            </Link>
+            ,{" "}
+            <Link
+                className="border-b border-transparent duration-200 hover:border-blue-950 hover:opacity-80"
+                href="https://herbs.n-ha.cf"
+            >
+                Site
+            </Link>
+        </p>
+        <Section>go_home_time</Section>
+        <p className="m-4">
+            中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
+            <br />
+            使った技術: HSP(Hot Soup Processor)
         </p>
     </SetInline>
 )
