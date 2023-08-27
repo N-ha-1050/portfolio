@@ -1,8 +1,8 @@
+import { LinkText } from "@/components/ui/LinkText"
 import { SetCenter } from "@/components/ui/SetCenter"
 import { Title } from "@/components/ui/Title"
 import { SocialLink } from "@/types/SocialLink"
 import { NextPage } from "next"
-import Link from "next/link"
 
 const socialLinks: SocialLink[] = [
     { url: "https://github.com/N-ha-1050", displayName: "GitHub" },
@@ -20,13 +20,8 @@ const Home: NextPage = () => (
         </p>
         <ul className="flex gap-4">
             {socialLinks.map(({ displayName, url }) => (
-                <li
-                    key={displayName}
-                    className="border-b border-transparent duration-200 hover:border-blue-950 hover:opacity-80"
-                >
-                    <Link href={url} className="text-xl">
-                        {displayName}
-                    </Link>
+                <li key={displayName} className="text-xl">
+                    <LinkText href={url}>{displayName}</LinkText>
                 </li>
             ))}
         </ul>
