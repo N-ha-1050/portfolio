@@ -39,10 +39,12 @@ const Skills: NextPage = () => (
         </div>
         <Part>TypeScript</Part>
         <div className="m-8">
+            <Section>React</Section>
+            高校2年のときに始めて触った。
+            <Section>Next.js</Section>
             現在は、 Next.js での開発がメイン。
             <br />
-            高校2年のときに始めて触り、 Chakra UI を使ってきたが、 Tailwind CSS
-            も勉強中。
+            Chakra UI を使ってきたが、 Tailwind CSS も勉強中。
             <br />
             このサイトの開発言語。
         </div>
