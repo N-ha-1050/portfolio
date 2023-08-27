@@ -7,8 +7,8 @@ export const Section = ({
     children: ReactNode
     text?: string
 }) => (
-    <>
-        <h3 className="my-4 text-xl font-bold">{children}</h3>
+    <div className="my-4 flex items-end">
+        <h3 className="text-xl font-bold">{children}</h3>
         {text && <p>{text}</p>}
-    </>
+    </div>
 )

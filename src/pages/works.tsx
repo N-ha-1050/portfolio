@@ -1,3 +1,4 @@
+import { Content } from "@/components/ui/Content"
 import { LinkText } from "@/components/ui/LinkText"
 import { Part } from "@/components/ui/Part"
 import { Section } from "@/components/ui/Section"
@@ -9,7 +10,7 @@ const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
         <Part>blog</Part>
-        <div className="m-8">
+        <Content>
             フロントエンドは Next.js, tailwind CSS に移行中
             <Section>使った技術(フロントエンド)</Section>
             <ul>
@@ -26,9 +27,9 @@ const Works: NextPage = () => (
                     <LinkText href="https://blog.n-ha.cf">Site</LinkText>
                 </li>
             </ul>
-        </div>
+        </Content>
         <Part>stady</Part>
-        <div className="m-8">
+        <Content>
             一問一答サイト
             <br />
             中学の時にvbsで作成。
@@ -69,7 +70,7 @@ const Works: NextPage = () => (
                     </LinkText>
                 </li>
             </ul>
-        </div>
+        </Content>
         {/* <Part>div-game</Part>
         <p className="m-8"></p>
         <Part>海戦ゲーム</Part>
@@ -77,7 +78,7 @@ const Works: NextPage = () => (
         <Part>word2vec</Part>
         <p className="m-8"></p> */}
         <Part>Herbs</Part>
-        <div className="m-8">
+        <Content>
             ハーブの栽培記録
             <br />
             中学3年の時に作ったハーブ観察記録。
@@ -101,15 +102,15 @@ const Works: NextPage = () => (
                     <LinkText href="https://herbs.n-ha.cf">Site</LinkText>
                 </li>
             </ul>
-        </div>
+        </Content>
         <Part>go_home_time</Part>
-        <div className="m-8">
+        <Content>
             中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
             <Section>使った技術</Section>
             <ul>
                 <li>HSP(Hot Soup Processor)</li>
             </ul>
-        </div>
+        </Content>
     </SetInline>
 )
 

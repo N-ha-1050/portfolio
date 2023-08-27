@@ -1,3 +1,4 @@
+import { Content } from "@/components/ui/Content"
 import { Part } from "@/components/ui/Part"
 import { Section } from "@/components/ui/Section"
 import { SetInline } from "@/components/ui/SetInline"
@@ -8,7 +9,7 @@ const Skills: NextPage = () => (
     <SetInline>
         <Title>Skills</Title>
         <Part>Python</Part>
-        <div className="m-8">
+        <Content>
             <Section>競技プログラミング</Section>
             現在の競プロメイン言語に使用。
             <br />
@@ -36,9 +37,9 @@ const Skills: NextPage = () => (
             <br />
             tkinter, Pygame を使ったゲーム開発や Streamlit を使ったWeb開発、
             Discord Bot を作ったこともある。
-        </div>
+        </Content>
         <Part>TypeScript</Part>
-        <div className="m-8">
+        <Content>
             <Section>React</Section>
             高校2年のときに始めて触った。
             <Section>Next.js</Section>
@@ -47,9 +48,9 @@ const Skills: NextPage = () => (
             Chakra UI を使ってきたが、 Tailwind CSS も勉強中。
             <br />
             このサイトの開発言語。
-        </div>
+        </Content>
         <Part>その他の言語</Part>
-        <div className="m-8">
+        <Content>
             <Section>C++, Rust</Section>
             競技プログラミングに使ったことがある、 C++ は初期の頃に使用、 Rust
             は勉強中(なお、現在のメインは Python )<Section>Go</Section>
@@ -61,7 +62,7 @@ const Skills: NextPage = () => (
             も少し
             <Section>Hot Soup Processor</Section>
             これも中学の時に使ってた、主にデスクトップアプリ
-        </div>
+        </Content>
     </SetInline>
 )
 
