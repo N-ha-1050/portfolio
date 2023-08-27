@@ -1,4 +1,4 @@
-import { Section } from "@/components/ui/Section"
+import { Part } from "@/components/ui/Part"
 import { SetInline } from "@/components/ui/SetInline"
 import { Title } from "@/components/ui/Title"
 import { NextPage } from "next"
@@ -13,7 +13,7 @@ const history: { date: string; content: string }[] = [
 const About: NextPage = () => (
     <SetInline>
         <Title>About</Title>
-        <Section>introduce</Section>
+        <Part>introduce</Part>
         <p className="m-8">
             <span className="mb-4 block">
                 <ruby className="mr-4 text-xl font-bold">
@@ -27,7 +27,7 @@ const About: NextPage = () => (
             <br />
             最近は、 Python を使った機械学習と Next.js を使ったWeb開発を勉強中。
         </p>
-        <Section>history</Section>
+        <Part>history</Part>
         <div className="m-8 grid md:w-fit md:grid-cols-2 md:gap-4">
             {history.map(({ date, content }) => (
                 <Fragment key={date}>

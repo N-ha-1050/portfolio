@@ -1,4 +1,4 @@
-import { Section } from "@/components/ui/Section"
+import { Part } from "@/components/ui/Part"
 import { SetInline } from "@/components/ui/SetInline"
 import { Title } from "@/components/ui/Title"
 import { NextPage } from "next"
@@ -6,7 +6,7 @@ import { NextPage } from "next"
 const Skills: NextPage = () => (
     <SetInline>
         <Title>Skills</Title>
-        <Section>Python</Section>
+        <Part>Python</Part>
         <p className="m-8">
             <span className="my-4 block text-xl font-bold">
                 競技プログラミング
@@ -40,7 +40,7 @@ const Skills: NextPage = () => (
             tkinter, Pygame を使ったゲーム開発や Streamlit を使ったWeb開発、
             Discord Bot を作ったこともある。
         </p>
-        <Section>TypeScript</Section>
+        <Part>TypeScript</Part>
         <p className="m-8">
             現在は、 Next.js での開発がメイン。
             <br />
@@ -49,7 +49,7 @@ const Skills: NextPage = () => (
             <br />
             このサイトの開発言語。
         </p>
-        <Section>その他の言語</Section>
+        <Part>その他の言語</Part>
         <ul className="m-8">
             <li>
                 <span className="my-4 block text-xl font-bold">C++, Rust</span>

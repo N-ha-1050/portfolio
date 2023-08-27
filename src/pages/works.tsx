@@ -1,4 +1,4 @@
-import { Section } from "@/components/ui/Section"
+import { Part } from "@/components/ui/Part"
 import { SetInline } from "@/components/ui/SetInline"
 import { Title } from "@/components/ui/Title"
 import { NextPage } from "next"
@@ -7,7 +7,7 @@ import Link from "next/link"
 const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
-        <Section>blog</Section>
+        <Part>blog</Part>
         <p className="m-8">
             フロントエンドは Next.js, tailwind CSS に移行中
             <br />
@@ -17,7 +17,7 @@ const Works: NextPage = () => (
             <br />
             リンク: <Link href="https://blog.n-ha.cf">Site</Link>
         </p>
-        <Section>stady</Section>
+        <Part>stady</Part>
         <p className="m-8">
             一問一答サイト
             <br />
@@ -49,13 +49,13 @@ const Works: NextPage = () => (
                 GitHub(vbs)
             </Link>
         </p>
-        {/* <Section>div-game</Section>
+        {/* <Part>div-game</Part>
         <p className="m-8"></p>
-        <Section>海戦ゲーム</Section>
+        <Part>海戦ゲーム</Part>
         <p className="m-8"></p>
-        <Section>word2vec</Section>
+        <Part>word2vec</Part>
         <p className="m-8"></p> */}
-        <Section>Herbs</Section>
+        <Part>Herbs</Part>
         <p className="m-8">
             ハーブの栽培記録
             <br />
@@ -82,7 +82,7 @@ const Works: NextPage = () => (
                 Site
             </Link>
         </p>
-        <Section>go_home_time</Section>
+        <Part>go_home_time</Part>
         <p className="m-8">
             中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
             <br />
