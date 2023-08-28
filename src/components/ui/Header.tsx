@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { useDisclosure } from "./useDisclosure"
 import { MenuContent } from "@/types/MenuContent"
+import { useDisclosure } from "@/hooks/useDisclosure"
 
 const menuContents: MenuContent[] = [
     { text: "Home", to: "/" },
@@ -11,7 +11,7 @@ const menuContents: MenuContent[] = [
 ]
 
 export const Header = () => {
-    const { isOpen, onToggle } = useDisclosure(false)
+    const { isOpen, onClose, onToggle } = useDisclosure(false)
     return (
         <header className="bg-blue-400">
             <nav className="mx-auto max-w-7xl px-4 py-2 md:flex md:items-center md:justify-between">
@@ -34,7 +34,7 @@ export const Header = () => {
                     <ul className="flex flex-col items-center divide-y rounded bg-blue-300 p-2 md:flex-row md:divide-none md:bg-transparent">
                         {menuContents.map(({ text, to }) => (
                             <li key={to} className="self-stretch">
-                                <Link href={to}>
+                                <Link href={to} onClick={onClose}>
                                     <p className="m-2 rounded p-2 text-center text-blue-950 duration-200 hover:bg-blue-200 hover:opacity-80">
                                         {text}
                                     </p>

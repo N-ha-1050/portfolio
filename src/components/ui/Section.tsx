@@ -1,5 +1,14 @@
 import { ReactNode } from "react"
 
-export const Section = ({ children }: { children: ReactNode }) => (
-    <h2 className="border-l-8 border-blue-600 pl-2 text-2xl">{children}</h2>
+export const Section = ({
+    children,
+    text,
+}: {
+    children: ReactNode
+    text?: string
+}) => (
+    <div className="my-4 flex items-end">
+        <h3 className="text-xl font-bold">{children}</h3>
+        {text && <p>{text}</p>}
+    </div>
 )
