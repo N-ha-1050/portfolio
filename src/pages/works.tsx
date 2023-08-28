@@ -90,7 +90,7 @@ const Works: NextPage = () => (
         <p className="m-8"></p> */}
         <Part>Herbs</Part>
         <Content>
-            ハーブの栽培記録
+            ハーブの栽培記録。
             <br />
             中学3年の時に作ったハーブ観察記録。
             <br />
@@ -110,7 +110,7 @@ const Works: NextPage = () => (
         </Content>
         <Part>go_home_time</Part>
         <Content>
-            中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム
+            中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム。
             <Section>使った技術</Section>
             <List>
                 <>HSP(Hot Soup Processor)</>
