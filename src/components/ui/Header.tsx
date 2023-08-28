@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { useDisclosure } from "./useDisclosure"
 import { MenuContent } from "@/types/MenuContent"
+import { useDisclosure } from "@/hooks/useDisclosure"
 
 const menuContents: MenuContent[] = [
     { text: "Home", to: "/" },
