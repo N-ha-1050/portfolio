@@ -11,7 +11,7 @@ const Skills: NextPage = () => (
         <Part>Python</Part>
         <Content>
             <Section>競技プログラミング</Section>
-            現在の競プロメイン言語に使用。
+            現在の競プロメイン言語。
             <br />
             AtCoder を高校2年のときに始めて、現在の色は緑。
             <Section>Django</Section>
@@ -20,8 +20,8 @@ const Skills: NextPage = () => (
             現在は、 Django REST Framework を使った開発がメイン(フロントエンドは
             Next.js )。
             <br />
-            認証を実装するライブラリは、 OAuth2 + JWT + Cookie
-            を使うことが多い。
+            認証は、 OAuth2 + JWT + Cookie
+            を使うことが多い。(認証周りはこれからもっと勉強したい。)
             <Section>データサイエンス・AI</Section>
             高校2年のときに、Django
             のWebアプリケーションで集めたデータを上手く使えないかと思ったことと、同時期に
@@ -52,16 +52,17 @@ const Skills: NextPage = () => (
         <Part>その他の言語</Part>
         <Content>
             <Section>C++, Rust</Section>
-            競技プログラミングに使ったことがある、 C++ は初期の頃に使用、 Rust
-            は勉強中(なお、現在のメインは Python )<Section>Go</Section>
-            競技プログラミングのために少し勉強し、その後Webのバックエンド開発に使用
+            競技プログラミングに使ったことがある。 C++ は初期の頃に使用、 Rust
+            は一時期勉強してた。
+            <Section>Go</Section>
+            競技プログラミングのために少し勉強し、その後Webのバックエンド開発に使用。
             <Section>Ruby, C</Section>
-            高校のときに受けた高大連携の講義で使用
+            高校のときに受けた高大連携の講義で使用。
             <Section>Visual Basic</Section>
-            vbs は中学の時に初めてプログラミングをした言語、その後 VBA や VB.NET
-            も少し
+            vbs は中学の時に初めてプログラミングをした言語。その後 VBA や VB.NET
+            も少し。
             <Section>Hot Soup Processor</Section>
-            これも中学の時に使ってた、主にデスクトップアプリ
+            中学の時に簡単なデスクトップアプリをすぐに作るために使用。
         </Content>
     </SetInline>
 )
