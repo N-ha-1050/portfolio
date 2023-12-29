@@ -1,7 +1,7 @@
 import { Children, ReactNode } from "react"
 
 export const Dict = ({ children }: { children: ReactNode }) => (
-    <div className="my-8 grid w-fit gap-2 md:grid-cols-4 md:items-center md:gap-8">
+    <div className="mx-auto my-8 grid w-fit gap-2 md:grid-cols-4 md:items-center md:gap-8">
         {Children.map(children, (child, index) => (
             <p
                 key={index}
