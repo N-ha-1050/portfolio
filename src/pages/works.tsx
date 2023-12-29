@@ -11,7 +11,7 @@ import { NextPage } from "next"
 const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
-        <Part>blog</Part>
+        <Part>Blog</Part>
         <Content>
             フロントエンドは Next.js + tailwind CSS に移行中。
             <Section>使った技術(フロントエンド)</Section>
@@ -28,7 +28,23 @@ const Works: NextPage = () => (
                 <LinkText href="https://blog.n-ha.cf">Site</LinkText>
             </List>
         </Content>
-        <Part>stady</Part>
+        <Part>Portfolio</Part>
+        <Content>
+            このサイト。ポートフォリオ。
+            <Section>使った技術</Section>
+            <List>
+                <>Next.js - TypeScript</>
+                <>Tailwind CSS</>
+            </List>
+            <Section>リンク</Section>
+            <List>
+                <LinkText href="https://portfolio.n-ha.cf">Site</LinkText>
+                <LinkText href="https://github.com/N-ha-1050/portfolio">
+                    GitHub
+                </LinkText>
+            </List>
+        </Content>
+        <Part>Stady</Part>
         <Content>
             一問一答ができるアプリ。
             <Dict>
@@ -48,15 +64,6 @@ const Works: NextPage = () => (
                     で実装し直した。
                 </>
             </Dict>
-            {/* <br />
-            中学の時にvbsで作成。
-            <br />
-            高校に入ってから Django でwebアプリケーション化。
-            機能を詰めすぎて重くなりすぎたため閉鎖。
-            <br />
-            (データベース周りの実装が原因となってる気がするが、スパゲッティすぎて改善断念。以降コードの書き方には気をつけるように。)
-            <br />
-            その後、機能を絞って Streamlit で実装 */}
             <Section>使った技術(vbs)</Section>
             <List>
                 <>vbs(Visual Basic Script)</>
