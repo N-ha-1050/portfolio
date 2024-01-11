@@ -11,23 +11,6 @@ import { NextPage } from "next"
 const Works: NextPage = () => (
     <SetInline>
         <Title>Works</Title>
-        <Part>Blog</Part>
-        <Content>
-            フロントエンドは Next.js + tailwind CSS に移行中。
-            <Section>使った技術(フロントエンド)</Section>
-            <List>
-                <>React - TypeScript</>
-                <>Chakra Ui</>
-            </List>
-            <Section>使った技術(バックエンド)</Section>
-            <List>
-                <>DRF(Django REST Framework) - Python</>
-            </List>
-            <Section>リンク</Section>
-            <List>
-                <LinkText href="https://blog.n-ha.cf">Site</LinkText>
-            </List>
-        </Content>
         <Part>Portfolio</Part>
         <Content>
             このサイト。ポートフォリオ。
@@ -42,6 +25,24 @@ const Works: NextPage = () => (
                 <LinkText href="https://github.com/N-ha-1050/portfolio">
                     GitHub
                 </LinkText>
+            </List>
+        </Content>
+        <Part>Blog</Part>
+        <Content>
+            フロントエンドは Next.js + tailwind CSS に移行中。
+            今は自分用のメモと化している。
+            <Section>使った技術(フロントエンド)</Section>
+            <List>
+                <>React - TypeScript</>
+                <>Chakra Ui</>
+            </List>
+            <Section>使った技術(バックエンド)</Section>
+            <List>
+                <>DRF(Django REST Framework) - Python</>
+            </List>
+            <Section>リンク</Section>
+            <List>
+                <LinkText href="https://blog.n-ha.cf">Site</LinkText>
             </List>
         </Content>
         <Part>Stady</Part>
@@ -66,7 +67,7 @@ const Works: NextPage = () => (
             </Dict>
             <Section>使った技術(vbs)</Section>
             <List>
-                <>vbs(Visual Basic Script)</>
+                <>vbs(VBScript)</>
             </List>
             <Section>使った技術(web)</Section>
             <List>
@@ -89,12 +90,6 @@ const Works: NextPage = () => (
                 </LinkText>
             </List>
         </Content>
-        {/* <Part>div-game</Part>
-        <p className="m-8"></p>
-        <Part>海戦ゲーム</Part>
-        <p className="m-8"></p>
-        <Part>word2vec</Part>
-        <p className="m-8"></p> */}
         <Part>Herbs</Part>
         <Content>
             ハーブの栽培記録。
@@ -104,8 +99,7 @@ const Works: NextPage = () => (
             初めての作品で、夏の自由課題で提出。
             <Section>使った技術</Section>
             <List>
-                <>HTML</>
-                <>CSS</>
+                <>HTML/CSS</>
             </List>
             <Section>リンク</Section>
             <List>

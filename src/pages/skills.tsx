@@ -20,8 +20,7 @@ const Skills: NextPage = () => (
             現在は、 Django REST Framework を使った開発がメイン(フロントエンドは
             Next.js )。
             <br />
-            認証は、 OAuth2 + JWT + Cookie
-            を使うことが多い。(認証周りはこれからもっと勉強したい。)
+            ユーザー認証周りをもっと勉強したい。
             <Section>データサイエンス・AI</Section>
             高校2年のときに、Django
             のWebアプリケーションで集めたデータを上手く使えないかと思ったことと、同時期に
@@ -29,8 +28,8 @@ const Skills: NextPage = () => (
             <br />
             大学で本格的に学びたい(データサイエンス学部在籍)。
             <br />
-            現在は、Signate や Kaggle のコンペに参加しながら勉強中。メインに
-            LightGBM を使用。
+            現在は、Signate や Kaggle のコンペに参加しながら、メインに LightGBM
+            と Tensorflow を勉強中。
             <Section>その他</Section>
             Python
             自体は中学3年のときに初めて触り、高校に入ってから本格的に使い始めた。
