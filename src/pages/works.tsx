@@ -21,7 +21,10 @@ const Works: NextPage = () => (
             </List>
             <Section>リンク</Section>
             <List>
-                <LinkText href="https://portfolio.n-ha.cf">Site</LinkText>
+                {/* <LinkText href="https://portfolio.n-ha.cf">Site</LinkText> */}
+                <LinkText href="https://portfolio-five-kohl-78.vercel.app/">
+                    Site
+                </LinkText>
                 <LinkText href="https://github.com/N-ha-1050/portfolio">
                     GitHub
                 </LinkText>
@@ -31,6 +34,7 @@ const Works: NextPage = () => (
         <Content>
             フロントエンドは Next.js + tailwind CSS に移行中。
             今は自分用のメモと化している。
+            ※現在、バックエンドを止めているため、内容を取得できません。
             <Section>使った技術(フロントエンド)</Section>
             <List>
                 <>React - TypeScript</>
@@ -42,7 +46,10 @@ const Works: NextPage = () => (
             </List>
             <Section>リンク</Section>
             <List>
-                <LinkText href="https://blog.n-ha.cf">Site</LinkText>
+                {/* <LinkText href="https://blog.n-ha.cf">Site</LinkText> */}
+                <LinkText href="https://blog-front-lake.vercel.app/">
+                    Site (バックエンド停止中)
+                </LinkText>
             </List>
         </Content>
         <Part>Stady</Part>
@@ -106,7 +113,10 @@ const Works: NextPage = () => (
                 <LinkText href="https://github.com/N-ha-1050/Herbs">
                     GitHub
                 </LinkText>
-                <LinkText href="https://herbs.n-ha.cf">Site</LinkText>
+                {/* <LinkText href="https://herbs.n-ha.cf">Site</LinkText> */}
+                <LinkText href="https://n-ha-1050.github.io/Herbs/">
+                    Site
+                </LinkText>
             </List>
         </Content>
         <Part>go_home_time</Part>
