@@ -16,7 +16,7 @@ const About: NextPage = () => (
                     長野悠歩<rt>ながのはるほ</rt>
                 </ruby>
             </Section>
-            横浜市立大学データサイエンス学部1年、 Python 好きです。
+            横浜市立大学データサイエンス学部、 Python 好きです。
             <br />
             Python を中心に幅広くプログラミングに取り組んでいます。
             <br />
