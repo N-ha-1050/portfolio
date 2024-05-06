@@ -40,6 +40,8 @@ const About: NextPage = () => (
                 <>TOEIC L&R 645点</>
                 <>2023年12月</>
                 <>普通自動車第一種免許</>
+                <>2024年3月</>
+                <>乙種第4類危険物取扱者免状</>
             </Dict>
         </Content>
     </SetInline>
