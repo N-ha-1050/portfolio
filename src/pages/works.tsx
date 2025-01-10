@@ -32,8 +32,9 @@ const Works: NextPage = () => (
         </Content>
         <Part>Blog</Part>
         <Content>
-            フロントエンドは Next.js + tailwind CSS に移行中。
-            今は自分用のメモと化している。
+            フロントエンドを Next.js + tailwind CSS に、バックエンドを FastAPI
+            に移行中。 今は自分用のメモと化している。
+            <br />
             ※現在、バックエンドを止めているため、内容を取得できません。
             <Section>使った技術(フロントエンド)</Section>
             <List>
@@ -57,19 +58,17 @@ const Works: NextPage = () => (
             一問一答ができるアプリ。
             <Dict>
                 <>vbs</>
-                <>中学の時に、英単語の暗記用に作成。</>
+                <>中学の時に英単語の暗記用に作成。</>
                 <>Django</>
                 <>
-                    高校に入ってから、他の教科でも使いたいと思い Django
+                    高校に入ってから他の教科でも使いたいと思い Django
                     の勉強も兼ねてWebアプリケーション化。
-                    機能を詰めすぎて重くなりすぎたため閉鎖。
-                    <br />
-                    (データベース周りの実装が原因となってる気がするが、スパゲッティすぎて改善断念。以降コードの書き方には気をつけるように。)
+                    機能を詰めすぎて重くなったため閉鎖。
                 </>
                 <>Streamlit</>
                 <>
                     Webアプリケーション版を閉じたので、機能を絞って Streamlit
-                    で実装し直した。
+                    で作り直した。
                 </>
             </Dict>
             <Section>使った技術(vbs)</Section>
@@ -97,7 +96,7 @@ const Works: NextPage = () => (
                 </LinkText>
             </List>
         </Content>
-        <Part>Herbs</Part>
+        {/* <Part>Herbs</Part>
         <Content>
             ハーブの栽培記録。
             <br />
@@ -113,20 +112,19 @@ const Works: NextPage = () => (
                 <LinkText href="https://github.com/N-ha-1050/Herbs">
                     GitHub
                 </LinkText>
-                {/* <LinkText href="https://herbs.n-ha.cf">Site</LinkText> */}
                 <LinkText href="https://n-ha-1050.github.io/Herbs/">
                     Site
                 </LinkText>
             </List>
-        </Content>
-        <Part>go_home_time</Part>
+        </Content> */}
+        {/* <Part>go_home_time</Part>
         <Content>
-            中学の時に作った下校時間までの時間を表示し、時間になったら音楽を再生するプログラム。
+            中学の時に作った。下校時間までの時間を表示し、時間になったら音楽を再生するプログラム。
             <Section>使った技術</Section>
             <List>
                 <>HSP(Hot Soup Processor)</>
             </List>
-        </Content>
+        </Content> */}
     </SetInline>
 )
 
