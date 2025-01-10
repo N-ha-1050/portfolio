@@ -6,6 +6,7 @@ const menuContents: MenuContent[] = [
     { text: "Home", to: "/" },
     { text: "About", to: "/about" },
     { text: "Works", to: "/works" },
+    { text: "Competitions", to: "/competitions" },
     { text: "Skills", to: "/skills" },
     { text: "Contact", to: "/contact" },
 ]
