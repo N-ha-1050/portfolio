@@ -28,7 +28,7 @@ const competitions_ds: Competition[] = [
         name: "Nishika 生鮮野菜の価格予測2023秋",
         link: "https://competition.nishika.com/competitions/yasai_2023autumn/summary",
         period: "2023年9月~11月",
-        result: "8位(全84人・チーム中)/Top 10%",
+        result: "8位(全84人・チーム)/Top 10%",
         description: "サークルのチームで参加",
     },
     {
@@ -52,7 +52,7 @@ const competitions_cp: Competition[] = [
         name: "AtCoder",
         link: "https://atcoder.jp",
         period: "2021年3月~",
-        result: "Algorithm 水色、Heuristic 緑色",
+        result: "Algorithm 緑色(Highest 水色)、Heuristic 水色",
         description: "AtCoder Beginner Contest などに参加",
     },
     {
