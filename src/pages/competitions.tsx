@@ -7,14 +7,7 @@ import { SetInline } from "@/components/ui/SetInline"
 import { Title } from "@/components/ui/Title"
 import { NextPage } from "next"
 import { Fragment } from "react"
-
-type Competition = {
-    name: string
-    link: string
-    period: string
-    result: string
-    description?: string
-}
+import { Competition } from "@/types/Competition"
 
 // データサイエンスコンペ
 const competitions_ds: Competition[] = [
@@ -77,6 +70,7 @@ const competition_categories: {
     { category: "データサイエンス", competitions: competitions_ds },
     { category: "競技プログラミング", competitions: competitions_cp },
 ]
+
 const Competitions: NextPage = () => (
     <SetInline>
         <Title>Competitions</Title>
