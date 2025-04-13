@@ -45,7 +45,7 @@ const competitions_cp: Competition[] = [
         name: "AtCoder",
         link: "https://atcoder.jp",
         period: "2021年3月~",
-        result: "Algorithm 緑色(Highest 水色)、Heuristic 水色",
+        result: "Highest: Algorithm 水色、Heuristic 水色",
         description: "AtCoder Beginner Contest などに参加",
     },
     {
