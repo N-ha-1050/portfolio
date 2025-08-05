@@ -11,18 +11,22 @@ const menuContents: MenuContent[] = [
     { text: "Contact", to: "/contact" },
 ]
 
+const Logo = () => (
+    <Link
+        href="/"
+        className="rounded-full border-2 border-transparent p-4 text-4xl text-blue-950 duration-200 hover:border-blue-800 hover:opacity-80"
+    >
+        N_ha
+    </Link>
+)
+
 export const Header = () => {
     const { isOpen, onClose, onToggle } = useDisclosure(false)
     return (
         <header className="bg-blue-400">
             <nav className="mx-auto max-w-7xl px-4 py-2 md:flex md:items-center md:justify-between">
                 <div className="flex items-center justify-between">
-                    <Link
-                        href="/"
-                        className="rounded-full border-2 border-transparent p-4 text-4xl text-blue-950 duration-200 hover:border-blue-800 hover:opacity-80"
-                    >
-                        N_ha
-                    </Link>
+                    <Logo />
                     <button
                         type="button"
                         className="m-2 rounded p-2 font-bold text-blue-950 duration-200 hover:bg-blue-200 hover:opacity-80 md:hidden"

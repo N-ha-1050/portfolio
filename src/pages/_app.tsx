@@ -6,7 +6,7 @@ import Head from "next/head"
 const App = ({ Component, pageProps }: AppProps) => (
     <Layout>
         <Head>
-            <title>N_ha`s Portfolio</title>
+            <title>N_ha&apos;s Portfolio</title>
         </Head>
         <Component {...pageProps} />
     </Layout>
