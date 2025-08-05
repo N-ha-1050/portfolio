@@ -16,15 +16,14 @@ const Works: NextPage = () => (
             このサイト。ポートフォリオ。
             <Section>使った技術</Section>
             <List>
-                <>Next.js - TypeScript</>
+                <>Next.js Page Router - TypeScript</>
                 <>Tailwind CSS</>
             </List>
             <Section>リンク</Section>
             <List>
                 {/* <LinkText href="https://portfolio.n-ha.cf">Site</LinkText> */}
-                <LinkText href="https://portfolio-five-kohl-78.vercel.app/">
-                    Site
-                </LinkText>
+                {/* <LinkText href="https://portfolio-five-kohl-78.vercel.app/">Site</LinkText> */}
+                <LinkText href="https://portfolio.n-ha.jp">Site</LinkText>
                 <LinkText href="https://github.com/N-ha-1050/portfolio">
                     GitHub
                 </LinkText>
@@ -32,25 +31,26 @@ const Works: NextPage = () => (
         </Content>
         <Part>Blog</Part>
         <Content>
-            フロントエンドを Next.js + tailwind CSS に、バックエンドを FastAPI
-            に移行中。 今は自分用のメモと化している。
-            <br />
-            ※現在、バックエンドを止めているため、内容を取得できません。
+            個人ブログ。何度か技術スタックを見直していて、はじめは React SPA +
+            CSS + Django REST Framework で作り、 Next.js Page Router + Chakra UI
+            + Fast API に移行した後、現在の構成になった。
+            今は自分用のメモと化している。
             <Section>使った技術(フロントエンド)</Section>
             <List>
-                <>React - TypeScript</>
-                <>Chakra Ui</>
+                <>Next.js App Router - TypeScript</>
+                <>Tailwind CSS</>
             </List>
             <Section>使った技術(バックエンド)</Section>
             <List>
-                <>DRF(Django REST Framework) - Python</>
+                <>Next.js App Router - TypeScript</>
+                <>Prisma</>
+                <>PostgreSQL</>
             </List>
             <Section>リンク</Section>
             <List>
                 {/* <LinkText href="https://blog.n-ha.cf">Site</LinkText> */}
-                <LinkText href="https://blog-front-lake.vercel.app/">
-                    Site (バックエンド停止中)
-                </LinkText>
+                {/* <LinkText href="https://blog-front-lake.vercel.app/">Site (バックエンド停止中)</LinkText> */}
+                <LinkText href="https://blog.n-ha.jp">Site</LinkText>
             </List>
         </Content>
         <Part>Stady</Part>
