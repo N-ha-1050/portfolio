@@ -38,7 +38,7 @@ const Works: NextPage = () => (
             <Section>使った技術(フロントエンド)</Section>
             <List>
                 <>Next.js App Router - TypeScript</>
-                <>Tailwind CSS</>
+                <>shadcn/ui(Tailwind CSS)</>
             </List>
             <Section>使った技術(バックエンド)</Section>
             <List>

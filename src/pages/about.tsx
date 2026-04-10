@@ -20,7 +20,8 @@ const About: NextPage = () => (
             <br />
             Python を中心に幅広くプログラミングに取り組んでいます。
             <br />
-            最近は、 Python を使った機械学習と Next.js を使ったWeb開発を勉強中。
+            最近は、 Python を使った機械学習と TypeScript (Next.js, React
+            Router) を使ったWeb開発を勉強中。
         </Content>
         <Part>経歴</Part>
         <Content>
