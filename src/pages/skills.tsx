@@ -13,14 +13,12 @@ const Skills: NextPage = () => (
             <Section>競技プログラミング</Section>
             現在の競プロメイン言語。
             <br />
-            AtCoder を高校2年のときに始めて、現在の色は緑。
+            AtCoder を高校2年のときに始めて、Highest は Algorithm 、Heuristic
+            ともに水色。
             <Section>Django</Section>
             高校1年のときからいくつかのWebアプリケーションの個人開発に使用。
             <br />
-            現在は、 Django REST Framework を使った開発がメイン(フロントエンドは
-            Next.js )。
-            <br />
-            ユーザー認証周りをもっと勉強したい。
+            現在は TypeScript を使った開発がメイン。
             <Section>データサイエンス・AI</Section>
             高校2年のときに、Django
             のWebアプリケーションで集めたデータを上手く使えないかと思ったことと、同時期に
@@ -29,7 +27,7 @@ const Skills: NextPage = () => (
             大学で本格的に学びたい(データサイエンス学部在籍)。
             <br />
             現在は、Signate や Kaggle のコンペに参加しながら、メインに LightGBM
-            と Tensorflow を勉強中。
+            と PyTorch を勉強中。
             <Section>その他</Section>
             Python
             自体は中学3年のときに初めて触り、高校に入ってから本格的に使い始めた。
@@ -41,10 +39,10 @@ const Skills: NextPage = () => (
         <Content>
             <Section>React</Section>
             高校2年のときに始めて触った。
-            <Section>Next.js</Section>
-            現在は、 Next.js での開発がメイン。
+            <Section>Next.js / React Router</Section>
+            現在は Next.js での開発がメイン。
             <br />
-            Chakra UI を使ってきたが、 Tailwind CSS も勉強中。
+            UI は主に Tailwind CSS を利用。
             <br />
             このサイトの開発言語。
         </Content>
