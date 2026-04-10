@@ -61,6 +61,27 @@ const competitions_cp: Competition[] = [
         result: "55位(全113チーム)",
         description: "サークルのチームで参加",
     },
+    {
+        name: "ICPC 2024 Yokohama 国内予選",
+        link: "https://icpc.jp/2024/domestic/results/",
+        period: "2024年7月",
+        result: "110位(全363チーム)",
+        description: "サークルのチームで参加",
+    },
+    {
+        name: "ICPC 2025 Yokohama 国内予選",
+        link: "https://icpc.jp/2025/domestic/results/",
+        period: "2025年7月",
+        result: "74位(全355チーム), アジア地区横浜大会に選抜",
+        description: "サークルのチームで参加",
+    },
+    {
+        name: "ICPC 2025 Yokohama Regional Contest",
+        link: "https://icpc.jp/2025/regional/",
+        period: "2025年12月",
+        result: "48位(全63チーム)",
+        description: "サークルのチームで参加",
+    },
 ]
 
 const competition_categories: {
